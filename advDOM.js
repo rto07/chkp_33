@@ -1,10 +1,9 @@
 /*Using createElement and getElementById. Add a new Shirt to the ul. Set the innerText equal to 'Mens T-shirt'.*/
 
-const btnA =
-        document.getElementById('btnA');
-  btnA.addEventListener('click', () => {
-    console.log("Men's T-Shirt");
-  });
+let li = document.getElementById('listItem1')
+let button = document.createElement('button')
+button.innertext = 'Mens T-Shirt'
+listItem1.prepend(button)
 
 const btnB =
         document.getElementById('btnB');
