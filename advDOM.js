@@ -1,4 +1,4 @@
-/*Using createElement and getElementById. Add a new Shirt to the ul. Set the innerText equal to 'Mens T-shirt'.*/
+/*Using the code from the prior checkpoint, add an Event Handler to the <li> element and console.log() the name of the shirt they selected.*/
 
 let li = document.getElementById('listItem1')
 let button = document.createElement('button')
